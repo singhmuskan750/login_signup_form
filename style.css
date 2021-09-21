@@ -7,10 +7,12 @@ body {
     position: relative;
 }
 
+
 .form {
     max-width: 600px;
     background-color: #c9c9c9;
     margin: 40px auto;
+
 }
 
 .tab {
@@ -22,6 +24,7 @@ body {
 .tablinks {
     width: 42%;
     margin: 0 auto;
+
     background-color: #4bb15c;
 }
 
@@ -30,6 +33,7 @@ body {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+
 }
 
 .tab button {
