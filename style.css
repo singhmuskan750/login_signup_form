@@ -1,0 +1,153 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.form {
+    max-width: 600px;
+    background-color: #c9c9c9;
+    margin: 40px auto;
+}
+
+.tab {
+    background-color: #c9c9c9;
+    width: 100%;
+    display: inline-block;
+}
+
+.tablinks {
+    width: 42%;
+    margin: 0 auto;
+    background-color: #4bb15c;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab button {
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 15px 60px;
+    margin: 35px 24px;
+    transition: 0.7s;
+    font-size: 18px;
+    font-family: inherit;
+    border-radius: 2px;
+  }
+  
+.tab button:hover {
+    background-color: #1e5505;
+    color: white;
+  }
+  
+
+.active {
+    background: color #1e5505;;
+    color: white;
+  }
+
+
+.row {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.field-row {
+    width: 42%;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.field {
+    position: relative;
+    margin: 10px 20px 15px 20px;
+}
+
+input {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    color: #05619e;
+    background: none;
+    border: 1px solid grey;
+    font-family: inherit;
+}
+
+label {
+    position: relative;
+    top: 30px;
+    left: 13px;
+    float: left;
+    color: #05619e;
+    font-family: inherit;
+    font-size: 18px;
+    transform: translate(0, -60px);
+}
+
+input:not(:placeholder-shown) + label {
+    position: relative;
+    padding-top: 33px; 
+    font-size: 13px;
+    width: 150px;
+    text-align: left;
+    transition: padding-top 0.8s;
+}
+
+input::placeholder {
+    color: transparent
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    background-color: #4bb15c;
+    transition: 0.7s;
+    font-family: inherit;
+    margin-top: 25px;
+  }
+
+.button:hover {
+    background-color: #1e5505;
+    color: white;
+  }
+
+h1 {
+    text-align: center;
+    color: #05619e;
+}
+
+.forgot {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.forgot a {
+    font-family: inherit;
+    color: #05619e;
+}
+
+
+@media (max-width: 500px) {
+    .tablinks {
+        width: 90%;
+    }
+}
+
